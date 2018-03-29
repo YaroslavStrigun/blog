@@ -40,6 +40,16 @@
                 </tr>
             @endforelse
             </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+                    <ul class="pagination pull-right">
+                        {{$articles->links()}}
+                    </ul>
+
+                </td>
+            </tr>
+            </tfoot>
         </table>
     </div>
 
